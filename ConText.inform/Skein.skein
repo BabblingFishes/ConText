@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x02F98DE8" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x02F98DE8"/>
+  <item nodeId="node-0x02F98DE8">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">ConText&#x000A;An Interactive Fiction by Zoe "Fish" Cagle&#x000A;Release 1 / Serial number 160117 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;bedroom&#x000A;You're pretty sure this used to be your bedroom... This must be some kind of weird dream.&#x000A;&#x000A;A standard-issue maroon chair sits awkwardly in the corner.&#x000A;&#x000A;There aren't any doors in or out, but there's a window to the east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F642E0"/>
+      <child nodeId="node-0x02F73480"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F642E0">
+    <command xml:space="preserve">look away</command>
+    <result xml:space="preserve">You stare pointedly at the other side of the room. The window seems relieved.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F64808"/>
+      <child nodeId="node-0x02F6CFC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F64808">
+    <command xml:space="preserve">go through window</command>
+    <result xml:space="preserve">(first opening the window)&#x000A;Watching the far wall, you back up to the window and tug at the pane. Your arms don't quite bend that way, but you manage to slide it open eventually.&#x000A;&#x000A;Carefully, you step backwards through the window. It's very a stressful moment for you both. But with some manuvering, you fall ungracefully into the next room.&#x000A;&#x000A;hallway&#x000A;This was once your lengthy, rectangular hallway. But now it's some strange, circular room with a tiled design on the floor.&#x000A;&#x000A;The window appears to have fled.&#x000A;&#x000A;There's a single red door leading to what you're reasonably sure is the kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F64988"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F64988">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You try, but it disappears before you can reach it. ...You should probably try to figure out where it will be, first.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB26A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB26A8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be south now.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB2810"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB2810">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be west now.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB2978"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB2978">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be east now.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB2C48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB2C48">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...And make it into the kitchen.&#x000A;&#x000A;kitchen&#x000A;Well, at least the kitchen looks mildly familiar. On the counter is an innocuous black box.&#x000A;&#x000A;You can see a small hopper window, but it's too high to reach.&#x000A;&#x000A;There's a single red door leading to the hallway.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB2CB8"/>
+      <child nodeId="node-0x02FB35A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB2CB8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB2D28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB2D28">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02FB35A0">
+    <command xml:space="preserve">take window</command>
+    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB36B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB36B8">
+    <command xml:space="preserve">examine window</command>
+    <result xml:space="preserve">You could probably squeeze your way through if you could reach it...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3728"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3728">
+    <command xml:space="preserve">reach window</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3798"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3798">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump on the spot.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3990"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3990">
+    <command xml:space="preserve">jump to window</command>
+    <result xml:space="preserve">I only understood you as far as wanting to jump.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3BC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3BC0">
+    <command xml:space="preserve">examine counter</command>
+    <result xml:space="preserve">On the kitchen counter is an innocuous black box.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3D80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3D80">
+    <command xml:space="preserve">take box</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3A00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3A00">
+    <command xml:space="preserve">examine box</command>
+    <result xml:space="preserve">It is suspiciously casual. On the top is a large, shiny, unassuming red button.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3C30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3C30">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">Click.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3FB0"/>
+      <child nodeId="node-0x02F6D5E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3FB0">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">Click.&#x000A;The giant worm waits patiently for you to notice it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3CA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3CA0">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">Click.&#x000A;The giant worm shifts nervously. It hopes it isn't being a bother.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3F40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3F40">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">kitchen&#x000A;You are in the kitchen. The worm has left the floor in splinters.&#x000A;&#x000A;You can see a small hopper window, but it's too high to reach.&#x000A;&#x000A;There's a single red door leading to the hallway.&#x000A;&#x000A;You can also see a giant worm here.&#x000A;&#x000A;The giant worm awkwardly sinks back into the floor a little bit. It worries that you might have left without acknowledging it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3920">
+    <command xml:space="preserve">examine worm</command>
+    <result xml:space="preserve">Eyeless and slimy, the beast fills nearly the entire room. You're not sure how you didn't hear it erupt through the floor.&#x000A;&#x000A;The giant worm worries that it may have offended you somehow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3DF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3DF0">
+    <command xml:space="preserve">notice worm</command>
+    <result xml:space="preserve">The giant worm is blind, and is uncertain that you have noticed it. Maybe a slight tap?&#x000A;&#x000A;The giant worm waits nervously for you to notice it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3A70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3A70">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3D10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3D10">
+    <command xml:space="preserve">take worm</command>
+    <result xml:space="preserve">I don't suppose the giant worm would care for that.&#x000A;&#x000A;The giant worm waits nervously for you to notice it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3B50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3B50">
+    <command xml:space="preserve">tap worm</command>
+    <result xml:space="preserve">The giant worm is still uncertain that you have noticed it. It's possible that you've only brushed up against it by accident. Maybe you should try talking to it.&#x000A;&#x000A;The giant worm waits nervously for you to notice it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB4020"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB4020">
+    <command xml:space="preserve">talk to worm</command>
+    <result xml:space="preserve">you tell the giant worm about yourself.&#x000A;&#x000A;The giant worm is pleased that you acknowledged it.&#x000A; It promptly begins to gnash its teeth at you. The giant worm has many teeth.&#x000A;&#x000A;You duck out of the way as the worm takes a chomp at you.&#x000A;&#x000A;You take some damage -- your arm is no longer in the best shape.&#x000A;You should probably let that heal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3AE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3AE0">
+    <command xml:space="preserve">run away</command>
+    <result xml:space="preserve">You can't seem to find a way back.&#x000A;&#x000A;The worm swings its head at you like a wrecking ball. You slam into the wall.&#x000A;&#x000A;You take some damage -- a bruise forms just below your hairline.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3E60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3E60">
+    <command xml:space="preserve">run away</command>
+    <result xml:space="preserve">You can't seem to find a way back.&#x000A;&#x000A;The worm slices at you with its razor teeth, but you dodge...mostly.&#x000A;&#x000A;You take some damage -- you're pretty sure that sprained something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB38B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB38B0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;This was once your lengthy, rectangular hallway. But now it's some strange, circular room with a tiled design on the floor.&#x000A;&#x000A;There's a single red door leading to the kitchen.&#x000A;&#x000A;You've managed to fix yourself up a little -- but the pain still makes you a little nauseous.&#x000A;&#x000A;The giant worm tries to follow, but gets stuck in the door. It wiggles through slowly and carefully, so as not to hurt the frame (but makes sure to snap viciously at you anyway).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FB3ED0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FB3ED0">
+    <command xml:space="preserve">look around</command>
+    <result xml:space="preserve">hallway&#x000A;This was once your lengthy, rectangular hallway. But now it's some strange, circular room with a tiled design on the floor.&#x000A;&#x000A;There's a single red door leading to the kitchen.&#x000A;&#x000A;You can also see a giant worm here.&#x000A;&#x000A;The worm headbutts you gently.&#x000A;&#x000A;You take some damage -- now there's a nasty-looking gash on your knee.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D2D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D2D8">
+    <command xml:space="preserve">examine worm</command>
+    <result xml:space="preserve">Eyeless and slimy, the beast fills nearly the entire room. You're not sure how you didn't hear it erupt through the floor.&#x000A;&#x000A;You've managed to fix yourself up a little -- but you're still in a bit of pain.&#x000A;&#x000A;You duck out of the way as the worm takes a chomp at you.&#x000A;&#x000A;You take some damage -- now there's a nasty-looking gash on your knee.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D818"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D818">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be south now.&#x000A;&#x000A;The worm headbutts you gently.&#x000A;&#x000A;You take some damage -- you're pretty sure that sprained something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6DB98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6DB98">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of brick. Looks like west doesn't lead anywhere.&#x000A;&#x000A;The worm slices at you with its razor teeth, but you dodge...mostly.&#x000A;&#x000A;You take some damage -- your arm is no longer in the best shape.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F6D5E8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;This was once your lengthy, rectangular hallway. But now it's some strange, circular room with a tiled design on the floor.&#x000A;&#x000A;There's a single red door leading to the kitchen.&#x000A;&#x000A;The giant worm waits patiently for you to notice it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6DC08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6DC08">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You try, but it disappears before you can reach it. ...You should probably try to figure out where it will be, first.&#x000A;&#x000A;The giant worm shifts nervously. It hopes it isn't being a bother.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D188"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D188">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be west now.&#x000A;&#x000A;The giant worm awkwardly sinks back into the floor a little bit. It worries that you might have left without acknowledging it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6DB28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6DB28">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be east now.&#x000A;&#x000A;The giant worm worries that it may have offended you somehow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D8F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D8F8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...And make it into the kitchen.&#x000A;&#x000A;kitchen&#x000A;You are in the kitchen. The worm has left the floor in splinters.&#x000A;&#x000A;You can see a small hopper window, but it's too high to reach.&#x000A;&#x000A;There's a single red door leading to the hallway.&#x000A;&#x000A;You can also see a giant worm here.&#x000A;&#x000A;The giant worm waits nervously for you to notice it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F6CFC8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the window)&#x000A;Watching the far wall, you back up to the window and tug at the pane. Your arms don't quite bend that way, but you manage to slide it open eventually.&#x000A;&#x000A;Carefully, you step backwards through the window. It's very a stressful moment for you both. But with some manuvering, you fall ungracefully into the next room.&#x000A;&#x000A;hallway&#x000A;This was once your lengthy, rectangular hallway. But now it's some strange, circular room with a tiled design on the floor.&#x000A;&#x000A;The window appears to have fled.&#x000A;&#x000A;There's a single red door leading to what you're reasonably sure is the kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D658"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D658">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;...But end up with a face full of wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D428"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D428">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be south now.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6DC78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6DC78">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be west now.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D3B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D3B8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be east now.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D738"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D738">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...And make it into the Kitchen.&#x000A;&#x000A;Kitchen&#x000A;Well, at least the kitchen looks mildly familiar. On the counter is an innocuous black box.&#x000A;&#x000A;You can see a small hopper window, but it's too high to reach.&#x000A;&#x000A;There's a single red door leading to the hallway.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D888"/>
+      <child nodeId="node-0x02F72A70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D888">
+    <command xml:space="preserve">take box</command>
+    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6CEE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6CEE8">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">Click.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D498"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D498">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">kitchen&#x000A;You are in the kitchen. On the counter is an innocuous black box.The worm has left the floor in splinters.&#x000A;&#x000A;You can see a small hopper window, but it's too high to reach.&#x000A;&#x000A;There's a single red door leading to the hallway.&#x000A;&#x000A;You can also see a giant worm here.&#x000A;&#x000A;The giant worm waits patiently for you to notice it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D508"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D508">
+    <command xml:space="preserve">talk to worm</command>
+    <result xml:space="preserve">you ask the giant worm about their day.&#x000A;&#x000A;The giant worm is pleased that you acknowledged it. It promptly begins to gnash its teeth viciously at you in response. The giant worm has many teeth.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D7A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D7A8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;This was once your lengthy, rectangular hallway. But now it's some strange, circular room with a tiled design on the floor.&#x000A;&#x000A;There's a single red door leading to the kitchen.&#x000A;&#x000A;The giant worm tries to follow, but gets stuck in the door. It wiggles through slowly and carefully, so as not to hurt the frame (but makes sure to snap viciously at you anyway).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D1F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D1F8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You try, but it disappears before you can reach it. ...You should probably try to figure out where it will be, first.&#x000A;&#x000A;The worm slices at you with its razor teeth, but you dodge...mostly.&#x000A;&#x000A;You take some damage -- you're pretty sure that sprained something.&#x000A;You should probably let that heal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D578"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D578">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...And make it into the spare room.&#x000A;&#x000A;spare room&#x000A;This room is pretty dim and empty. There are a green chair, a blue chair and a yellow chair huddled in the corner.&#x000A;&#x000A;There's a large decorative door to the south that you're pretty sure could hold back the worm.&#x000A;&#x000A;You've managed to fix yourself up a little --in fact, you'd say you're at peak health!&#x000A;&#x000A;The giant worm manages to squeeze through its current door, but gets stuck again in the next one. It wiggles through slowly and carefully, so as not to hurt the frame (but makes sure to snap viciously at you anyway).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D038"/>
+      <child nodeId="node-0x02F6D968"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D038">
+    <command xml:space="preserve">take chair</command>
+    <result xml:space="preserve">Which do you mean, the green chair, the blue chair or the yellow chair?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D9D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D9D8">
+    <command xml:space="preserve">take green chair</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;The worm headbutts you gently.&#x000A;&#x000A;You take some damage -- you're pretty sure that sprained something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D348"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D348">
+    <command xml:space="preserve">take blue chair</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;You've managed to fix yourself up a little -- but you're still in a bit of pain.&#x000A;&#x000A;The worm swings its head at you like a wrecking ball. You slam into the wall.&#x000A;&#x000A;You take some damage -- a bruise forms just below your hairline.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D268"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D268">
+    <command xml:space="preserve">take yellow chair</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;You duck out of the way as the worm takes a chomp at you.&#x000A;&#x000A;Badly injured and taking the brunt of the force, you black out...&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D6C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D6C8">
+    <command xml:space="preserve">diagnose</command>
+    <result xml:space="preserve">You'd rate your pain at a seven, but you can ride it out.&#x000A;&#x000A;You duck out of the way as the worm takes a chomp at you.&#x000A;&#x000A;Badly injured and taking the brunt of the force, you black out...&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F6D968">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">you slam the door shut and lock it behind you.&#x000A;&#x000A;living room&#x000A;There's a large decorative door to the east. It's locked tight.&#x000A;&#x000A;A mannequin sits in the corner of the room.&#x000A;&#x000A;You can also see a sign here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6DA48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6DA48">
+    <command xml:space="preserve">examine mannequin</command>
+    <result xml:space="preserve">There's a knothole in the wood where its eye should be.&#x000A;&#x000A;You've managed to fix yourself up a little --in fact, you'd say you're at peak health!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6DAB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6DAB8">
+    <command xml:space="preserve">examine knothole</command>
+    <result xml:space="preserve">Nothing inside. You're also slightly tempted to stick your finger through it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6CF58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6CF58">
+    <command xml:space="preserve">take knothole</command>
+    <result xml:space="preserve">The mannequin leans away from you, offended that you would even consider such a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D0A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D0A8">
+    <command xml:space="preserve">take mannequin</command>
+    <result xml:space="preserve">I don't suppose the mannequin would care for that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6D118"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6D118">
+    <command xml:space="preserve">poke mannequin</command>
+    <result xml:space="preserve">The wood is well-varnished and superbly polished.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6DD58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6DD58">
+    <command xml:space="preserve">tell mannequin no poking</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6DE38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6DE38">
+    <command xml:space="preserve">tell mannequin "no poking"</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6DCE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6DCE8">
+    <command xml:space="preserve">tell mannequin about "no poking"</command>
+    <result xml:space="preserve">The mannequin shifts. Its arms seem to move independently of...themselves. That is, although they stay stiffly crossed behind the mannequin's back, they also gesture -- almost like a hologram -- as it tries to speak...&#x000A;&#x000A;Unfortunately, the mannequin does not seem to have a mouth.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F6DDC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6DDC8">
+    <command xml:space="preserve">examine mouth</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72ED0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72ED0">
+    <command xml:space="preserve">pat mannequin</command>
+    <result xml:space="preserve">The wood is well-varnished and superbly polished.&#x000A;&#x000A;The mannequin is still trying to speak to you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72990"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72990">
+    <command xml:space="preserve">hug mannequin</command>
+    <result xml:space="preserve">The mannequin abashedly hides its face in its hands.&#x000A;&#x000A;The mannequin seems frustrated.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72E60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72E60">
+    <command xml:space="preserve">talk to mannequin</command>
+    <result xml:space="preserve">you ask the mannequin about themself.&#x000A;&#x000A;There is no reply.&#x000A;&#x000A;After a few minutes of deliberation, the mannequin opts to communicate by prodding at your forehead.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72D80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72D80">
+    <command xml:space="preserve">give mannequin papeer</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72C30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72C30">
+    <command xml:space="preserve">give mannequin paper</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F73020"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F73020">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;The mannequin continues to poke uselessly at your forehead.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72DF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72DF0">
+    <command xml:space="preserve">take mannequin</command>
+    <result xml:space="preserve">I don't suppose the mannequin would care for that.&#x000A;&#x000A;The mannequin continues to poke fruitlessly at your forehead. Whatever it's trying to do, it's not working.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72FB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72FB0">
+    <command xml:space="preserve">talk to mannequin</command>
+    <result xml:space="preserve">Finally, you snap. You swat the mannequin's hand and tell it to stop.&#x000A;The mannequin reluctantly withdraws and respects your personal space.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F731E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F731E0">
+    <command xml:space="preserve">look around</command>
+    <result xml:space="preserve">living room&#x000A;There's a large decorative door to the east. It's locked tight.&#x000A;&#x000A;The mannequin sways to some nonexistent tune.&#x000A;&#x000A;You can also see a sign here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F72A70">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">Click.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F727D0"/>
+      <child nodeId="node-0x02F72920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F727D0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;This was once your lengthy, rectangular hallway. But now it's some strange, circular room with a tiled design on the floor.&#x000A;&#x000A;There's a single red door leading to the kitchen.&#x000A;&#x000A;The giant worm waits patiently for you to notice it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F72920">
+    <command xml:space="preserve">talk to worm</command>
+    <result xml:space="preserve">you ask the giant worm about their day.&#x000A;&#x000A;The giant worm is pleased that you acknowledged it. It promptly begins to gnash its teeth viciously at you in response. The giant worm has many teeth.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72840"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72840">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;This was once your lengthy, rectangular hallway. But now it's some strange, circular room with a tiled design on the floor.&#x000A;&#x000A;There's a single red door leading to what you're reasonably sure is the kitchen.&#x000A;&#x000A;The giant worm tries to follow, but gets stuck in the door. It wiggles through slowly and carefully, so as not to hurt the frame (but makes sure to snap viciously at you anyway).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72610">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;...But end up with a face full of wall.&#x000A;&#x000A;You duck out of the way as the worm takes a chomp at you.&#x000A;&#x000A;You take some damage -- your arm is no longer in the best shape.&#x000A;You should probably let that heal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F73330"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F73330">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be south now.&#x000A;&#x000A;You've managed to fix yourself up a little --in fact, you'd say you're at peak health!&#x000A;&#x000A;The worm headbutts you gently.&#x000A;&#x000A;You take some damage -- you're pretty sure that sprained something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72D10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72D10">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be west now.&#x000A;&#x000A;You've managed to fix yourself up a little --in fact, you'd say you're at peak health!&#x000A;&#x000A;The worm slices at you with its razor teeth, but you dodge...mostly.&#x000A;&#x000A;You take some damage -- now there's a nasty-looking gash on your knee.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72F40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72F40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...And make it into the spare room.&#x000A;&#x000A;spare room&#x000A;This room is pretty dim and empty. There are a green chair, a blue chair and a yellow chair huddled in the corner.&#x000A;&#x000A;There's a large decorative door to the south that you're pretty sure could hold back the worm.&#x000A;&#x000A;You've managed to fix yourself up a little --in fact, you'd say you're at peak health!&#x000A;&#x000A;The giant worm manages to squeeze through its current door, but gets stuck again in the next one. It wiggles through slowly and carefully, so as not to hurt the frame (but makes sure to snap viciously at you anyway).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F728B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F728B0">
+    <command xml:space="preserve">take chair</command>
+    <result xml:space="preserve">Which do you mean, the green chair, the blue chair or the yellow chair?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F73090"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F73090">
+    <command xml:space="preserve">put blue chair on green chair</command>
+    <result xml:space="preserve">(first taking the blue chair)&#x000A;You put the blue chair on the green chair.&#x000A;&#x000A;The worm swings its head at you like a wrecking ball. You slam into the wall.&#x000A;&#x000A;You take some damage -- a bruise forms just below your hairline.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72A00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72A00">
+    <command xml:space="preserve">take green chair</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;You've managed to fix yourself up a little --in fact, you'd say you're at peak health!&#x000A;&#x000A;The worm swings its head at you like a wrecking ball. You slam into the wall.&#x000A;&#x000A;You take some damage -- now there's a nasty-looking gash on your knee.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72AE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72AE0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">you slam the door shut and lock it behind you.&#x000A;&#x000A;living room&#x000A;There's a large decorative door to the east. It's locked tight.&#x000A;&#x000A;A mannequin sits in the corner of the room.&#x000A;&#x000A;There's a single red door leading to the hallway.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F73170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F73170">
+    <command xml:space="preserve">give chair to mannequin</command>
+    <result xml:space="preserve">(the green chair to the mannequin)&#x000A;The mannequin refuses to take the green chair; that'd just be bad manners.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F732C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F732C0">
+    <command xml:space="preserve">talk to mannequin</command>
+    <result xml:space="preserve">you ask the mannequin about themself.&#x000A;&#x000A;The mannequin shifts. Its arms seem to move independently of...themselves. That is, although they stay stiffly crossed behind the mannequin's back, they also gesture -- almost like a hologram -- as it tries to speak...&#x000A;&#x000A;...Unfortunately, the mannequin does not seem to have a mouth. It pauses to consider this fact.&#x000A;&#x000A;You've managed to fix yourself up a little --in fact, you'd say you're at peak health!&#x000A;&#x000A;After a few moments of deliberation, the mannequin opts to communicate by poking at your head.&#x000A;&#x000A;Poke pokepoke poke poke poke, poke pokepoke poke poke poke poke pokepokepoke...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F73100"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F73100">
+    <command xml:space="preserve">tell mannequin to stop</command>
+    <result xml:space="preserve">Finally, you snap. You swat the mannequin's hand and tell it to stop.&#x000A;The mannequin reluctantly withdraws and respects your personal space.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72B50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72B50">
+    <command xml:space="preserve">offer chairs</command>
+    <result xml:space="preserve">(the green chair to the mannequin)&#x000A;The mannequin picks up the stack of chairs.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72760">
+    <command xml:space="preserve">offer chair</command>
+    <result xml:space="preserve">Which do you mean, the green chair or the blue chair?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F73250"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F73250">
+    <command xml:space="preserve">the green chair</command>
+    <result xml:space="preserve">(to the mannequin)&#x000A;(first taking the green chair)&#x000A;That seems to belong to the mannequin.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72BC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72BC0">
+    <command xml:space="preserve">ask mannequin about door</command>
+    <result xml:space="preserve">The mannequin considers. It looks at the door. It rolls up its sleeves. With all its energy, it dramatically wiggles its fingers...&#x000A;&#x000A;...Nothing. The mannequin seems disappointed. Melancholy, even. It'll never be a real wizard.&#x000A;&#x000A;With a bit of a disappointed slouch and a little patting around at its pockets, the mannequin produces a key and unlocks the door for you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F733A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F733A0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the red door)&#x000A;&#x000A;hallway&#x000A;This was once your lengthy, rectangular hallway. But now it's some strange, circular room with a tiled design on the floor.&#x000A;&#x000A;There's a single red door leading to a strange multitude of places.&#x000A;&#x000A;The mannequin follows.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72CA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72CA0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">hallway&#x000A;This was once your lengthy, rectangular hallway. But now it's some strange, circular room with a tiled design on the floor.&#x000A;&#x000A;The mannequin sways to some nonexistent tune.&#x000A;&#x000A;There's a single red door leading to a strange multitude of places.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F72680"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72680">
+    <command xml:space="preserve">examine floor</command>
+    <result xml:space="preserve">The design points in each of the cardinal directions: north, south, east, and west are all tiled in white granite.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F726F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F726F0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be north now.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F73410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F73410">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be south now.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F73480">
+    <command xml:space="preserve">take chair</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F73560"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F73560">
+    <command xml:space="preserve">go backwards through window</command>
+    <result xml:space="preserve">(the window)&#x000A;(first looking away from the window)&#x000A;You stare pointedly at the other side of the room. The window seems relieved.&#x000A;&#x000A;(first opening the window)&#x000A;Watching the far wall, you back up to the window and tug at the pane. Your arms don't quite bend that way, but you manage to slide it open eventually.&#x000A;&#x000A;Carefully, you step backwards through the window. It's very a stressful moment for you both. But with some manuvering, you fall ungracefully into the next room.&#x000A;&#x000A;hallway&#x000A;This was once your lengthy, rectangular hallway. But now it's some strange, circular room with a tiled design on the floor.&#x000A;&#x000A;The window appears to have fled.&#x000A;&#x000A;There's a single red door leading to what you're reasonably sure is the kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F734F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F734F0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;...But end up with a face full of wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F792A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F792A0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be south now.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F79230"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F79230">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be west now.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F79070"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F79070">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be east now.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F78F90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F78F90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...And make it into the Kitchen.&#x000A;&#x000A;Kitchen&#x000A;Well, at least the kitchen looks mildly familiar. On the counter is an innocuous black box.&#x000A;&#x000A;You can see a small hopper window, but it's too high to reach.&#x000A;&#x000A;There's a single red door to the south, leading back to the hallway.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F79310"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F79310">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">Click.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F795B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F795B0">
+    <command xml:space="preserve">talk to worm</command>
+    <result xml:space="preserve">you ask the giant worm about the weather.&#x000A;&#x000A;The giant worm is pleased that you acknowledged it. It promptly begins to gnash its teeth viciously at you in response. The giant worm has many teeth.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F78F20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F78F20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;This was once your lengthy, rectangular hallway. But now it's some strange, circular room with a tiled design on the floor.&#x000A;&#x000A;There's a single red door leading to what you're reasonably sure is the kitchen.&#x000A;&#x000A;The giant worm tries to follow, but gets stuck in the door. It wiggles through slowly and carefully, so as not to hurt the frame (but makes sure to snap viciously at you anyway).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F78A50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F78A50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;...But end up with a face full of wall.&#x000A;&#x000A;You duck out of the way as the worm takes a chomp at you.&#x000A;&#x000A;You take some damage -- you're pretty sure that sprained something.&#x000A;You should probably let that heal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F790E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F790E0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be south now.&#x000A;&#x000A;The worm slices at you with its razor teeth, but you dodge...mostly.&#x000A;&#x000A;You take some damage -- now there's a nasty-looking gash on your knee.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F78B30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F78B30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...But end up with a face full of wall. The door seems to be west now.&#x000A;&#x000A;The worm headbutts you gently.&#x000A;&#x000A;You take some damage -- a bruise forms just below your hairline.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F79000"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F79000">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...And make it into the spare room.&#x000A;&#x000A;spare room&#x000A;This room is pretty dim and empty. There are a green chair, a blue chair and a yellow chair huddled in the corner.&#x000A;&#x000A;There's a large decorative door to the south that you're pretty sure could hold back the worm.&#x000A;&#x000A;There's a single red door leading west to the hallway.&#x000A;&#x000A;The giant worm manages to squeeze through its current door, but gets stuck again in the next one. It wiggles through slowly and carefully, so as not to hurt the frame (but makes sure to snap viciously at you anyway).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You make a lunge for the doorway...&#x000A;&#x000A;...And make it into the spare room.&#x000A;&#x000A;spare room&#x000A;This room is pretty dim and empty. There are a green chair, a blue chair and a yellow chair huddled in the corner.&#x000A;&#x000A;There's a large decorative door to the south that you're pretty sure could hold back the worm.&#x000A;&#x000A;The giant worm manages to squeeze through its current door, but gets stuck again in the next one. It wiggles through slowly and carefully, so as not to hurt the frame (but makes sure to snap viciously at you anyway).&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F78BA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F78BA0">
+    <command xml:space="preserve">put maroon chair on green chair</command>
+    <result xml:space="preserve">You put the maroon chair on the green chair.&#x000A;&#x000A;The worm slices at you with its razor teeth, but you dodge...mostly.&#x000A;&#x000A;You take some damage -- a bruise forms just below your hairline.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F78900"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F78900">
+    <command xml:space="preserve">take green chair</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;You duck out of the way as the worm takes a chomp at you.&#x000A;&#x000A;You take some damage -- now there's a nasty-looking gash on your knee.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F794D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F794D0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">you slam the door shut and lock it behind you.&#x000A;&#x000A;living room&#x000A;There's a large decorative door to the east. It's locked tight.&#x000A;&#x000A;A mannequin sits in the corner of the room.&#x000A;&#x000A;There's a single red door leading to the hallway.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">you slam the door shut and lock it behind you.&#x000A;&#x000A;living room&#x000A;There's a large decorative door to the east. It's locked tight.&#x000A;&#x000A;A mannequin sits in the corner of the room.&#x000A;&#x000A;You can also see a sign here.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+  </item>
+</Skein>
